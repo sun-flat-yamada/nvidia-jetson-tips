@@ -55,6 +55,9 @@ deb https://repo.download.nvidia.com/jetson/t210 32.5 main
 
 編集したら以下のコマンドでupgradeする。
 40分以上かかるだろう。
+そして、途中でconfiguration fileの選択プロンプトが表示されるので Y (yes) で選択する。
+
+デフォルト (そのままEnter) だと N (現状keep) が選択されてしまうので注意。
 
 ```
 sync
